@@ -32,10 +32,6 @@ import cn.cloudself.weexshop.weex.module.WXShpLifecycle;
  * 网络良好的情况下，
  * 若无更新，更新线程在50ms左右结束，
  * <p>
- * 预加载线程每隔100ms检测一次更新线程是否执行完毕，
- * 最多检测9次，
- * 更新完毕后调用该类下的预加载方法，该线程结束
- * <p>
  * 预加载方法用于启动weex实例
  * weex实例在加载完毕后会调用 weex.module.loadOk
  * <p>
