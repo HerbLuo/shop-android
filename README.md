@@ -1,11 +1,11 @@
 # shop-android
 shop-native 的安卓端
 
-###Run It
+### Run It
 1. 修改cn.cloudself.weexshop.util.app.Config下的服务端地址ip
 2. 确保服务端开着，js端开着，运行即可
 
-###具体功能
+### 具体功能
 这些具体功能均非必需
 1. Activity  
 * Welcome Activity 欢迎页
